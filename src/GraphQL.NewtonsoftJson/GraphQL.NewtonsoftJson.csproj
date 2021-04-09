@@ -5,6 +5,7 @@
     <RootNamespace>GraphQL.NewtonsoftJson</RootNamespace>
     <Description>JSON.NET serializer for GraphQL.NET</Description>
     <PackageTags>GraphQL;json</PackageTags>
+    <PackageId>Soft.GraphQL.NewtonsoftJson</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

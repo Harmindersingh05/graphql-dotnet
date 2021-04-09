@@ -299,7 +299,7 @@ namespace GraphQL
             // TODO: Should we use cached instances of the default execution strategies?
             return context.Operation.OperationType switch
             {
-                OperationType.Query => ParallelExecutionStrategy.Instance,
+                OperationType.Query => SerialExecutionStrategy.Instance,
                 OperationType.Mutation => SerialExecutionStrategy.Instance,
                 OperationType.Subscription => throw new NotSupportedException($"DocumentExecuter does not support executing subscriptions. You can use SubscriptionDocumentExecuter from GraphQL.SystemReactive package to handle subscriptions."),
                 _ => throw new InvalidOperationException($"Unexpected OperationType {context.Operation.OperationType}")

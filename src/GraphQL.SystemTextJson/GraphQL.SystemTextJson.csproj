@@ -5,6 +5,7 @@
     <RootNamespace>GraphQL.SystemTextJson</RootNamespace>
     <Description>System.Text.Json serializer for GraphQL.NET</Description>
     <PackageTags>GraphQL;json</PackageTags>
+    <PackageId>Soft.GraphQL.SystemTextJson</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

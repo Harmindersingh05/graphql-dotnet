@@ -140,5 +140,13 @@ namespace GraphQL.Utilities
                 arg2 = temp;
             }
         }
+
+        public static string RemoveWhiteSpaces(this string value)
+        {
+            if (value == null)
+                return "";
+            return new string(value.Where(c => !char.IsWhiteSpace(c)).ToArray<char>());
+            ;
+        }
     }
 }

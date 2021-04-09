@@ -4,6 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Microsoft DI extensions for GraphQL.NET</Description>
     <PackageTags>GraphQL;dependency injection;di</PackageTags>
+    <AssemblyName>GraphQL.MicrosoftDI</AssemblyName>
+    <PackageId>Soft.GraphQL.MicrosoftDI</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

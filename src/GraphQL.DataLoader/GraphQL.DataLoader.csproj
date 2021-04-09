@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>GraphQL DataLoader implementation</Description>
     <PackageTags>GraphQL;DataLoader</PackageTags>
+    <PackageId>Soft.GraphQL.DataLoader</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
