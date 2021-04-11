@@ -5,6 +5,7 @@
     <Description>GraphQL memory cache implementation on top of Microsoft.Extensions.Caching.Memory</Description>
     <PackageTags>GraphQL;memory</PackageTags>
     <PackageId>Soft.GraphQL.MemoryCache</PackageId>
+    <Version>4.2.1-preview-h1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
   </ItemGroup>
 
 </Project>

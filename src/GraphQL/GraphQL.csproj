@@ -7,14 +7,15 @@
     <Copyright>Copyright (c) 2015-2021 Joseph T. McBride, Ivan Maximov, Shane Krueger, et al. All rights reserved.</Copyright>
     <PackageTags>GraphQL;json;api</PackageTags>
     <PackageId>Soft.GraphQL</PackageId>
+    <Version>4.2.1-preview-h1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="GraphQL-Parser" Version="7.1.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
     <PackageReference Include="System.Memory" Version="4.5.4" Condition="'$(TargetFramework)' == 'netstandard2.0'" />
-    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.1" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
